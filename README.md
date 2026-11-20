@@ -14,14 +14,14 @@ Turkish logistics landing site and lightweight admin for open shipment listings.
 
 ```bash
 npm install
-env -u DATABASE_URL ADMIN_PASSWORD=adatepe-admin WHATSAPP_NUMBER=905551112233 npm run dev
+env -u DATABASE_URL ADMIN_PASSWORD=ADATEPE-ADMIN WHATSAPP_NUMBER=905551112233 npm run dev
 ```
 
 Open [http://127.0.0.1:3000](http://127.0.0.1:3000)
 
 - Landing: `/`
 - Open jobs: `/acik-sevkiyatlar`
-- Admin: `/admin` (password from `ADMIN_PASSWORD`, default `adatepe-admin`)
+- Admin: `/admin` (password from `ADMIN_PASSWORD`, default `ADATEPE-ADMIN`)
 
 Unset `DATABASE_URL` on this VM so local runs use PGlite, not another shared database.
 

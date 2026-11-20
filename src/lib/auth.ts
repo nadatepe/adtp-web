@@ -5,7 +5,7 @@ const COOKIE_NAME = "yan_admin_session";
 const MAX_AGE_SECONDS = 60 * 60 * 24 * 7; // 7 days
 
 function adminPassword(): string {
-  return process.env.ADMIN_PASSWORD?.trim() || "adatepe-admin";
+  return process.env.ADMIN_PASSWORD?.trim() || "ADATEPE-ADMIN";
 }
 
 function sessionSecret(): string {
